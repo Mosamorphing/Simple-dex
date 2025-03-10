@@ -60,6 +60,19 @@ export const SwapStyles = styled.div`
   .btn {
     margin-top: 0.25rem;
   }
+  
+    /* Adjusted Chart Styles */
+    .chart-container {
+    font-size: 14px;
+    margin-top: 2rem; 
+    background: rgb(27, 27, 27);
+    padding: 1rem;
+    border-radius: 1rem;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+  }
+
 `;
 export const DynamicButton = styled.button`
   border-radius: 1rem;
